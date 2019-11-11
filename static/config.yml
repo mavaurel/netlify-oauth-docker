@@ -1,0 +1,21 @@
+# backend:
+#   name: test-repo
+backend:
+  name: github
+  branch: master
+  repo: mavaurel/netlifycms_portfolio # change this to your repo
+  base_url: https://creative-marquess.glitch.me # change this to your OAuth server
+
+
+
+media_folder: media_folder
+
+collections:
+- name: post
+  label: Post
+  folder: posts
+  create: true
+  fields:
+    - {name: title, label: Title}
+    - {name: body, label: Body, widget: markdown}
+    - {label: "Image", name: "image", widget: "image", tagname: ''}

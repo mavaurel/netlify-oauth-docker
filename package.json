@@ -1,0 +1,25 @@
+{
+  "name": "rangers",
+  "version": "0.0.1",
+  "description": "langing page",
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "4.16.4",
+    "tiny-json-http": "7.1.2"
+  },
+  "engines": {
+    "node": "10.x"
+  },
+  "repository": {
+    "url": "https://github.com/mavaurel/netlifycms_portfolio"
+  }
+}
